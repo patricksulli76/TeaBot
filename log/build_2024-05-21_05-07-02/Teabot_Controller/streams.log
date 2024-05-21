@@ -1,0 +1,43 @@
+[0.050s] Invoking command in '/home/patrick/TeaBot/build/Teabot_Controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/patrick/TeaBot/src/Teabot_Controller -DCMAKE_INSTALL_PREFIX=/home/patrick/TeaBot/install/Teabot_Controller
+[0.817s] -- The C compiler identification is GNU 11.4.0
+[1.538s] -- The CXX compiler identification is GNU 11.4.0
+[1.568s] -- Detecting C compiler ABI info
+[1.913s] -- Detecting C compiler ABI info - done
+[1.940s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.940s] -- Detecting C compile features
+[1.942s] -- Detecting C compile features - done
+[1.953s] -- Detecting CXX compiler ABI info
+[2.462s] -- Detecting CXX compiler ABI info - done
+[2.490s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.491s] -- Detecting CXX compile features
+[2.493s] -- Detecting CXX compile features - done
+[2.518s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.211s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[3.747s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.962s] WARNING: Package name "Teabot_Controller" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.
+[4.152s] -- Added test 'lint_cmake' to check CMake code style
+[4.160s] -- Added test 'xmllint' to check XML markup files
+[4.166s] -- Configuring done
+[4.184s] -- Generating done
+[4.188s] -- Build files have been written to: /home/patrick/TeaBot/build/Teabot_Controller
+[4.203s] Invoked command in '/home/patrick/TeaBot/build/Teabot_Controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/patrick/TeaBot/src/Teabot_Controller -DCMAKE_INSTALL_PREFIX=/home/patrick/TeaBot/install/Teabot_Controller
+[4.211s] Invoking command in '/home/patrick/TeaBot/build/Teabot_Controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/patrick/TeaBot/build/Teabot_Controller -- -j4 -l4
+[4.348s] Invoked command in '/home/patrick/TeaBot/build/Teabot_Controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/patrick/TeaBot/build/Teabot_Controller -- -j4 -l4
+[4.489s] Invoking command in '/home/patrick/TeaBot/build/Teabot_Controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/patrick/TeaBot/build/Teabot_Controller
+[4.515s] -- Install configuration: ""
+[4.516s] -- Installing: /home/patrick/TeaBot/install/Teabot_Controller/share/ament_index/resource_index/package_run_dependencies/Teabot_Controller
+[4.518s] -- Installing: /home/patrick/TeaBot/install/Teabot_Controller/share/ament_index/resource_index/parent_prefix_path/Teabot_Controller
+[4.519s] -- Installing: /home/patrick/TeaBot/install/Teabot_Controller/share/Teabot_Controller/environment/ament_prefix_path.sh
+[4.521s] -- Installing: /home/patrick/TeaBot/install/Teabot_Controller/share/Teabot_Controller/environment/ament_prefix_path.dsv
+[4.522s] -- Installing: /home/patrick/TeaBot/install/Teabot_Controller/share/Teabot_Controller/environment/path.sh
+[4.523s] -- Installing: /home/patrick/TeaBot/install/Teabot_Controller/share/Teabot_Controller/environment/path.dsv
+[4.524s] -- Installing: /home/patrick/TeaBot/install/Teabot_Controller/share/Teabot_Controller/local_setup.bash
+[4.525s] -- Installing: /home/patrick/TeaBot/install/Teabot_Controller/share/Teabot_Controller/local_setup.sh
+[4.526s] -- Installing: /home/patrick/TeaBot/install/Teabot_Controller/share/Teabot_Controller/local_setup.zsh
+[4.527s] -- Installing: /home/patrick/TeaBot/install/Teabot_Controller/share/Teabot_Controller/local_setup.dsv
+[4.528s] -- Installing: /home/patrick/TeaBot/install/Teabot_Controller/share/Teabot_Controller/package.dsv
+[4.530s] -- Installing: /home/patrick/TeaBot/install/Teabot_Controller/share/ament_index/resource_index/packages/Teabot_Controller
+[4.531s] -- Installing: /home/patrick/TeaBot/install/Teabot_Controller/share/Teabot_Controller/cmake/Teabot_ControllerConfig.cmake
+[4.532s] -- Installing: /home/patrick/TeaBot/install/Teabot_Controller/share/Teabot_Controller/cmake/Teabot_ControllerConfig-version.cmake
+[4.533s] -- Installing: /home/patrick/TeaBot/install/Teabot_Controller/share/Teabot_Controller/package.xml
+[4.539s] Invoked command in '/home/patrick/TeaBot/build/Teabot_Controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/patrick/TeaBot/build/Teabot_Controller

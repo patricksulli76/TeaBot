@@ -1,0 +1,6 @@
+Invoking command in '/home/patrick/TeaBot/build/Teabot_Controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/patrick/TeaBot/src/Teabot_Controller -DCMAKE_INSTALL_PREFIX=/home/patrick/TeaBot/install/Teabot_Controller
+Invoked command in '/home/patrick/TeaBot/build/Teabot_Controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/patrick/TeaBot/src/Teabot_Controller -DCMAKE_INSTALL_PREFIX=/home/patrick/TeaBot/install/Teabot_Controller
+Invoking command in '/home/patrick/TeaBot/build/Teabot_Controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/patrick/TeaBot/build/Teabot_Controller -- -j4 -l4
+Invoked command in '/home/patrick/TeaBot/build/Teabot_Controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/patrick/TeaBot/build/Teabot_Controller -- -j4 -l4
+Invoking command in '/home/patrick/TeaBot/build/Teabot_Controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/patrick/TeaBot/build/Teabot_Controller
+Invoked command in '/home/patrick/TeaBot/build/Teabot_Controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/patrick/TeaBot/build/Teabot_Controller

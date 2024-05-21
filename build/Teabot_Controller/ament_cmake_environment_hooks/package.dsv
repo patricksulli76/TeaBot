@@ -1,0 +1,4 @@
+source;share/Teabot_Controller/local_setup.bash
+source;share/Teabot_Controller/local_setup.dsv
+source;share/Teabot_Controller/local_setup.sh
+source;share/Teabot_Controller/local_setup.zsh

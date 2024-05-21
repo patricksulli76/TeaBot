@@ -1,0 +1,142 @@
+[0.552s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.552s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffff8c40fb50>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff8c40f5b0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff8c40f5b0>>)
+[1.587s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.587s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.588s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.588s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.588s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.588s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.588s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/patrick/TeaBot'
+[1.589s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.589s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.589s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.590s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.590s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.590s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.590s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.590s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.590s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.639s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.640s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.640s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.640s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.640s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.641s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.641s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.641s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.642s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.642s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.642s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.643s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.643s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.643s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.643s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.644s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.644s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.644s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.644s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.644s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.645s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.645s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.645s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.645s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.645s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.645s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.646s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.646s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.646s] Level 1:colcon.colcon_core.package_identification:_identify(src/Teabot_Controller) by extensions ['ignore', 'ignore_ament_install']
+[1.647s] Level 1:colcon.colcon_core.package_identification:_identify(src/Teabot_Controller) by extension 'ignore'
+[1.647s] Level 1:colcon.colcon_core.package_identification:_identify(src/Teabot_Controller) by extension 'ignore_ament_install'
+[1.647s] Level 1:colcon.colcon_core.package_identification:_identify(src/Teabot_Controller) by extensions ['colcon_pkg']
+[1.647s] Level 1:colcon.colcon_core.package_identification:_identify(src/Teabot_Controller) by extension 'colcon_pkg'
+[1.647s] Level 1:colcon.colcon_core.package_identification:_identify(src/Teabot_Controller) by extensions ['colcon_meta']
+[1.647s] Level 1:colcon.colcon_core.package_identification:_identify(src/Teabot_Controller) by extension 'colcon_meta'
+[1.648s] Level 1:colcon.colcon_core.package_identification:_identify(src/Teabot_Controller) by extensions ['ros']
+[1.648s] Level 1:colcon.colcon_core.package_identification:_identify(src/Teabot_Controller) by extension 'ros'
+[1.661s] DEBUG:colcon.colcon_core.package_identification:Package 'src/Teabot_Controller' with type 'ros.ament_cmake' and name 'Teabot_Controller'
+[1.661s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.661s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.662s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.662s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.662s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.776s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.777s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.796s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 272 installed packages in /opt/ros/humble
+[1.803s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[2.011s] Level 5:colcon.colcon_core.verb:set package 'Teabot_Controller' build argument 'cmake_args' from command line to 'None'
+[2.012s] Level 5:colcon.colcon_core.verb:set package 'Teabot_Controller' build argument 'cmake_target' from command line to 'None'
+[2.012s] Level 5:colcon.colcon_core.verb:set package 'Teabot_Controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.012s] Level 5:colcon.colcon_core.verb:set package 'Teabot_Controller' build argument 'cmake_clean_cache' from command line to 'False'
+[2.012s] Level 5:colcon.colcon_core.verb:set package 'Teabot_Controller' build argument 'cmake_clean_first' from command line to 'False'
+[2.012s] Level 5:colcon.colcon_core.verb:set package 'Teabot_Controller' build argument 'cmake_force_configure' from command line to 'False'
+[2.012s] Level 5:colcon.colcon_core.verb:set package 'Teabot_Controller' build argument 'ament_cmake_args' from command line to 'None'
+[2.012s] Level 5:colcon.colcon_core.verb:set package 'Teabot_Controller' build argument 'catkin_cmake_args' from command line to 'None'
+[2.012s] Level 5:colcon.colcon_core.verb:set package 'Teabot_Controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.013s] DEBUG:colcon.colcon_core.verb:Building package 'Teabot_Controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/patrick/TeaBot/build/Teabot_Controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/patrick/TeaBot/install/Teabot_Controller', 'merge_install': False, 'path': '/home/patrick/TeaBot/src/Teabot_Controller', 'symlink_install': False, 'test_result_base': None}
+[2.013s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[2.016s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[2.017s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/patrick/TeaBot/src/Teabot_Controller' with build type 'ament_cmake'
+[2.017s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/patrick/TeaBot/src/Teabot_Controller'
+[2.037s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[2.038s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.038s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.069s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/patrick/TeaBot/build/Teabot_Controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/patrick/TeaBot/src/Teabot_Controller -DCMAKE_INSTALL_PREFIX=/home/patrick/TeaBot/install/Teabot_Controller
+[6.222s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/patrick/TeaBot/build/Teabot_Controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/patrick/TeaBot/src/Teabot_Controller -DCMAKE_INSTALL_PREFIX=/home/patrick/TeaBot/install/Teabot_Controller
+[6.231s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/patrick/TeaBot/build/Teabot_Controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/patrick/TeaBot/build/Teabot_Controller -- -j4 -l4
+[6.367s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/patrick/TeaBot/build/Teabot_Controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/patrick/TeaBot/build/Teabot_Controller -- -j4 -l4
+[6.509s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/patrick/TeaBot/build/Teabot_Controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/patrick/TeaBot/build/Teabot_Controller
+[6.557s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(Teabot_Controller)
+[6.558s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/patrick/TeaBot/build/Teabot_Controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/patrick/TeaBot/build/Teabot_Controller
+[6.584s] Level 1:colcon.colcon_core.environment:checking '/home/patrick/TeaBot/install/Teabot_Controller' for CMake module files
+[6.587s] Level 1:colcon.colcon_core.environment:checking '/home/patrick/TeaBot/install/Teabot_Controller' for CMake config files
+[6.588s] Level 1:colcon.colcon_core.shell:create_environment_hook('Teabot_Controller', 'cmake_prefix_path')
+[6.589s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/patrick/TeaBot/install/Teabot_Controller/share/Teabot_Controller/hook/cmake_prefix_path.ps1'
+[6.593s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/patrick/TeaBot/install/Teabot_Controller/share/Teabot_Controller/hook/cmake_prefix_path.dsv'
+[6.595s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/patrick/TeaBot/install/Teabot_Controller/share/Teabot_Controller/hook/cmake_prefix_path.sh'
+[6.599s] Level 1:colcon.colcon_core.environment:checking '/home/patrick/TeaBot/install/Teabot_Controller/bin'
+[6.600s] Level 1:colcon.colcon_core.environment:checking '/home/patrick/TeaBot/install/Teabot_Controller/lib/pkgconfig/Teabot_Controller.pc'
+[6.601s] Level 1:colcon.colcon_core.environment:checking '/home/patrick/TeaBot/install/Teabot_Controller/lib/python3.10/site-packages'
+[6.602s] Level 1:colcon.colcon_core.environment:checking '/home/patrick/TeaBot/install/Teabot_Controller/bin'
+[6.603s] INFO:colcon.colcon_core.shell:Creating package script '/home/patrick/TeaBot/install/Teabot_Controller/share/Teabot_Controller/package.ps1'
+[6.607s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/patrick/TeaBot/install/Teabot_Controller/share/Teabot_Controller/package.dsv'
+[6.609s] INFO:colcon.colcon_core.shell:Creating package script '/home/patrick/TeaBot/install/Teabot_Controller/share/Teabot_Controller/package.sh'
+[6.612s] INFO:colcon.colcon_core.shell:Creating package script '/home/patrick/TeaBot/install/Teabot_Controller/share/Teabot_Controller/package.bash'
+[6.617s] INFO:colcon.colcon_core.shell:Creating package script '/home/patrick/TeaBot/install/Teabot_Controller/share/Teabot_Controller/package.zsh'
+[6.620s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/patrick/TeaBot/install/Teabot_Controller/share/colcon-core/packages/Teabot_Controller)
+[6.724s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(Teabot_Controller)
+[6.725s] Level 1:colcon.colcon_core.environment:checking '/home/patrick/TeaBot/install/Teabot_Controller' for CMake module files
+[6.728s] Level 1:colcon.colcon_core.environment:checking '/home/patrick/TeaBot/install/Teabot_Controller' for CMake config files
+[6.729s] Level 1:colcon.colcon_core.shell:create_environment_hook('Teabot_Controller', 'cmake_prefix_path')
+[6.730s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/patrick/TeaBot/install/Teabot_Controller/share/Teabot_Controller/hook/cmake_prefix_path.ps1'
+[6.733s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/patrick/TeaBot/install/Teabot_Controller/share/Teabot_Controller/hook/cmake_prefix_path.dsv'
+[6.734s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/patrick/TeaBot/install/Teabot_Controller/share/Teabot_Controller/hook/cmake_prefix_path.sh'
+[6.737s] Level 1:colcon.colcon_core.environment:checking '/home/patrick/TeaBot/install/Teabot_Controller/bin'
+[6.738s] Level 1:colcon.colcon_core.environment:checking '/home/patrick/TeaBot/install/Teabot_Controller/lib/pkgconfig/Teabot_Controller.pc'
+[6.739s] Level 1:colcon.colcon_core.environment:checking '/home/patrick/TeaBot/install/Teabot_Controller/lib/python3.10/site-packages'
+[6.740s] Level 1:colcon.colcon_core.environment:checking '/home/patrick/TeaBot/install/Teabot_Controller/bin'
+[6.741s] INFO:colcon.colcon_core.shell:Creating package script '/home/patrick/TeaBot/install/Teabot_Controller/share/Teabot_Controller/package.ps1'
+[6.744s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/patrick/TeaBot/install/Teabot_Controller/share/Teabot_Controller/package.dsv'
+[6.746s] INFO:colcon.colcon_core.shell:Creating package script '/home/patrick/TeaBot/install/Teabot_Controller/share/Teabot_Controller/package.sh'
+[6.748s] INFO:colcon.colcon_core.shell:Creating package script '/home/patrick/TeaBot/install/Teabot_Controller/share/Teabot_Controller/package.bash'
+[6.750s] INFO:colcon.colcon_core.shell:Creating package script '/home/patrick/TeaBot/install/Teabot_Controller/share/Teabot_Controller/package.zsh'
+[6.752s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/patrick/TeaBot/install/Teabot_Controller/share/colcon-core/packages/Teabot_Controller)
+[6.753s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[6.754s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[6.754s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[6.755s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[6.781s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[6.782s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[6.782s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[6.782s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[6.858s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[6.858s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[6.859s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/patrick/TeaBot/install/local_setup.ps1'
+[6.865s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/patrick/TeaBot/install/_local_setup_util_ps1.py'
+[6.871s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/patrick/TeaBot/install/setup.ps1'
+[6.875s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/patrick/TeaBot/install/local_setup.sh'
+[6.878s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/patrick/TeaBot/install/_local_setup_util_sh.py'
+[6.880s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/patrick/TeaBot/install/setup.sh'
+[6.885s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/patrick/TeaBot/install/local_setup.bash'
+[6.887s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/patrick/TeaBot/install/setup.bash'
+[6.891s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/patrick/TeaBot/install/local_setup.zsh'
+[6.894s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/patrick/TeaBot/install/setup.zsh'

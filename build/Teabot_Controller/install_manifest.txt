@@ -1,0 +1,15 @@
+/home/patrick/TeaBot/install/Teabot_Controller/share/ament_index/resource_index/package_run_dependencies/Teabot_Controller
+/home/patrick/TeaBot/install/Teabot_Controller/share/ament_index/resource_index/parent_prefix_path/Teabot_Controller
+/home/patrick/TeaBot/install/Teabot_Controller/share/Teabot_Controller/environment/ament_prefix_path.sh
+/home/patrick/TeaBot/install/Teabot_Controller/share/Teabot_Controller/environment/ament_prefix_path.dsv
+/home/patrick/TeaBot/install/Teabot_Controller/share/Teabot_Controller/environment/path.sh
+/home/patrick/TeaBot/install/Teabot_Controller/share/Teabot_Controller/environment/path.dsv
+/home/patrick/TeaBot/install/Teabot_Controller/share/Teabot_Controller/local_setup.bash
+/home/patrick/TeaBot/install/Teabot_Controller/share/Teabot_Controller/local_setup.sh
+/home/patrick/TeaBot/install/Teabot_Controller/share/Teabot_Controller/local_setup.zsh
+/home/patrick/TeaBot/install/Teabot_Controller/share/Teabot_Controller/local_setup.dsv
+/home/patrick/TeaBot/install/Teabot_Controller/share/Teabot_Controller/package.dsv
+/home/patrick/TeaBot/install/Teabot_Controller/share/ament_index/resource_index/packages/Teabot_Controller
+/home/patrick/TeaBot/install/Teabot_Controller/share/Teabot_Controller/cmake/Teabot_ControllerConfig.cmake
+/home/patrick/TeaBot/install/Teabot_Controller/share/Teabot_Controller/cmake/Teabot_ControllerConfig-version.cmake
+/home/patrick/TeaBot/install/Teabot_Controller/share/Teabot_Controller/package.xml

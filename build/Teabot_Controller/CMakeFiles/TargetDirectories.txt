@@ -1,0 +1,9 @@
+/home/patrick/TeaBot/build/Teabot_Controller/CMakeFiles/uninstall.dir
+/home/patrick/TeaBot/build/Teabot_Controller/CMakeFiles/Teabot_Controller_uninstall.dir
+/home/patrick/TeaBot/build/Teabot_Controller/CMakeFiles/test.dir
+/home/patrick/TeaBot/build/Teabot_Controller/CMakeFiles/edit_cache.dir
+/home/patrick/TeaBot/build/Teabot_Controller/CMakeFiles/rebuild_cache.dir
+/home/patrick/TeaBot/build/Teabot_Controller/CMakeFiles/list_install_components.dir
+/home/patrick/TeaBot/build/Teabot_Controller/CMakeFiles/install.dir
+/home/patrick/TeaBot/build/Teabot_Controller/CMakeFiles/install/local.dir
+/home/patrick/TeaBot/build/Teabot_Controller/CMakeFiles/install/strip.dir

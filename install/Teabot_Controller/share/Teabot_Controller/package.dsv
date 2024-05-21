@@ -1,0 +1,8 @@
+source;share/Teabot_Controller/hook/cmake_prefix_path.ps1
+source;share/Teabot_Controller/hook/cmake_prefix_path.dsv
+source;share/Teabot_Controller/hook/cmake_prefix_path.sh
+source;share/Teabot_Controller/local_setup.bash
+source;share/Teabot_Controller/local_setup.dsv
+source;share/Teabot_Controller/local_setup.ps1
+source;share/Teabot_Controller/local_setup.sh
+source;share/Teabot_Controller/local_setup.zsh
